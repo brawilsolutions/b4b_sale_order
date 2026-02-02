@@ -1,0 +1,12 @@
+<odoo>
+    <record id="view_tax_form_inherit_es_iva" model="ir.ui.view">
+        <field name="name">account.tax.form.es.iva</field>
+        <field name="model">account.tax</field>
+        <field name="inherit_id" ref="account.view_tax_form"/>
+        <field name="arch" type="xml">
+            <field name="invoice_legal_notes" position="after">
+                <field name="es_iva"/>
+            </field>
+        </field>
+    </record>
+</odoo>

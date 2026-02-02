@@ -1,0 +1,20 @@
+<odoo>
+    <record id="view_res_config_settings_b4b" model="ir.ui.view">
+        <field name="name">res.config.settings.view.b4b.localization</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="base_setup.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[@id='companies']/block" position="inside">
+                <setting id="b4b_use_bw_localization_setting" string="Ubicación personalizada BW"
+                         help="Activa esta opción si usas localización personalizada con zip_id en vez de ciudad estándar.">
+                    <field name="use_bw_localization"/>
+                </setting>
+
+                <setting id="b4b_con_impuesto_setting" string="Aplicar precio con impuesto"
+                         help="Si está activo, los productos creados aplicarán el precio con el primer impuesto configurado.">
+                    <field name="con_impuesto"/>
+                </setting>
+            </xpath>
+        </field>
+    </record>
+</odoo>
