@@ -11,7 +11,6 @@ class B4BSaleOrderLine(models.Model):
     precio_unitario = fields.Float(string='Precio Unitario')
     porcentaje_sl = fields.Float(string='Porcentaje SL')
     desc_asesor = fields.Integer(string='Descuento Asesor')
-    campo_prueba = fields.Char(string='Campo de Prueba')
     total = fields.Float(string='Total', compute='_compute_total', store=True)
 
     @api.depends('cantidad', 'precio_unitario')

@@ -66,7 +66,6 @@
                                     <field name="nombre_item"/>
                                     <field name="cantidad"/>
                                     <field name="precio_unitario"/>
-                                    <field name="campo_prueba"/>
                                     <field name="desc_asesor"/>
                                     <field name="porcentaje_sl"/>
                                     <field name="total"/>
