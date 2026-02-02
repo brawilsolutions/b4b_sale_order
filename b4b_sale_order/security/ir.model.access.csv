@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_b4b_sale_order_manager,b4b.sale.order manager,b4b_sale_order.model_b4b_sale_order,sales_team.group_sale_manager,1,1,1,1
+access_b4b_sale_order_line_manager,b4b.sale.order.line manager,b4b_sale_order.model_b4b_sale_order_line,sales_team.group_sale_manager,1,1,1,1
