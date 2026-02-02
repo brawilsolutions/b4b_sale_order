@@ -1,0 +1,21 @@
+{
+    'name': 'B4B Sale Order',
+    'version': '17.0.1.0',
+    'summary': 'Modulo personalizado para servicio logístico en ventas',
+    'author': 'Brawil Solutions Sas',
+    'depends': ['base', 'sale', 'purchase'],
+    'data': [
+        'security/ir.model.access.csv',
+        'data/server_action.xml',
+        'data/res.city.csv',
+        'data/cron.xml', 
+        'views/res_config_settings_views.xml',
+        'views/account_tax_views.xml',
+        'views/product_template_views.xml',
+        'views/b4b_sale_order_views.xml',
+        'views/b4b_sale_order_menu.xml',
+    ],
+    'installable': True,
+    'application': True,
+    'license': 'LGPL-3',
+}
